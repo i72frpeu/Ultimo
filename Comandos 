@@ -1,0 +1,13 @@
+Si no estan creados los archivos .o
+
+g++ -c persona.cc
+g++ -c profesor.cc
+g++ -c alumno.cc
+g++ -c agenda.cc
+g++ -c programa.cc
+
+
+Cuando esten creados todos los archivos .o
+
+g++ persona.o profesor.o alumno.o agenda.o programa.o -o programa.exe
+
